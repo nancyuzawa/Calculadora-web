@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1.3rem;
+    background-color: whitesmoke;
+}
+.grid-container{
+    border-radius: 9px;
+    width: 13rem;
+    height: 12.5rem;
+    margin: 1rem 0;
+}
+.container1{
+    display: grid;
+
+    /*delimita o espaçamento entre eles*/
+    gap: .35rem; 
+    grid-template-columns: 3rem 3rem 3rem 3rem; 
+    background-color: #001F3F;
+
+}
+
+.button-config{
+    grid-column: 1/3;
+}
+
+.button{
+    /* margin: .20rem; */
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+body{
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.numero{
+    background-color: #e8e6dc;
+    color: #3A6D8C;
+    transition: 0.5s;
+}
+
+.numero:hover{
+    background-color: #3A6D8C;
+    color: #e8e6dc;
+    transition: 0.5s;
+}
+.operacao{
+    background-color: #3A6D8C;
+    color: #e8e6dc;
+    transition: 0.5s;
+}
+.operacao:hover{
+    background-color: #e8e6dc;
+    color: #3A6D8C;
+}
+
+.painel{
+    background-color: #e8e6dc;
+    height: 3rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.conteudo{
+    padding: 1rem;
+    background-color: #001F3F;
+    border-radius: 10px;
+
+}
+#item1, #item2{
+    font-size: 1rem;
+}
+
+input{
+    border-radius: 5px;
+    height: 100%;
+    text-align: right;
+    width: 13rem;
+    color: #001F3F;
+
+}
+
+/* Remove as setas no Chrome, Safari e Edge */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove as setas no Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
