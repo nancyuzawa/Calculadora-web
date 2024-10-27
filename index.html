@@ -1,50 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style/style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/style/style.css">
 
-    <!-- colocar icone na janela -->
-    <link rel="shortcut icon" href="./assets/image/icone-calculadora.png" type="image/x-icon">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
-    <title>Calculadora</title>
-</head>
-<body>
-    <div class="conteudo">
-        <div class="painel">
-            <input type="number" placeholder="0">
-        </div>
-        <div class="grid-container">
-            <div class="container1">
-                <button class="button numero button-config" id="item1">AC</button>
-                <button class="button numero" id="item2">DEL</button>
-                <button class="button operacao" id="item3">&#247;</button>
-                <button class="button numero" id="item4">1</button>
-                <button class="button numero" id="item5">2</button>
-                <button class="button numero" id="item6">3</button>
-                <button class="button operacao" id="item7">*</button>
-                <button class="button numero" id="item8">4</button>
-                <button class="button numero" id="item9">5</button>
-                <button class="button numero" id="item10">6</button>
-                <button class="button operacao" id="item11">+</button>
-                <button class="button numero" id="item12">7</button>
-                <button class="button numero" id="item13">8</button>
-                <button class="button numero" id="item14">9</button>
-                <button class="button operacao" id="item15">-</button>
-                <button class="button button-config numero" id="item16">.</button>
-                <button class="button numero" id="item17">0</button>
-                <button class="button operacao" id="item18">=</button>
+        <!-- colocar icone na janela -->
+        <link rel="shortcut icon" href=".//assets/image/icone-calculadora.png" type="image/x-icon">
+        <title>Calculadora</title>
+    </head>
+    <body >
+        <script src="./assets/script/script.js"></script>
+        <div class="conteudo">
+            <div class="painel">
+                <input id="display" type="text" placeholder="0">
+                <!-- <div id="display"></div> -->
+            </div>
+            <div class="grid-container">
+                <div class="container1">
+                    <button class="button numero button-config" id="item1" onclick="limpa()">AC</button>
+                    <button class="button numero" id="item2" onclick="deleta()">DEL</button>
+                    <button class="button operacao" id="item3" onclick="insere('/')">&#247</button>
+                    <button class="button numero" id="item4" onclick="insere(1)">1</button>
+                    <button class="button numero" id="item5" onclick="insere(2)">2</button>
+                    <button class="button numero" id="item6" onclick="insere(3)">3</button>
+                    <button class="button operacao" id="item7" onclick="insere('*')">*</button>
+                    <button class="button numero" id="item8" onclick="insere(4)">4</button>
+                    <button class="button numero" id="item9" onclick="insere(5)">5</button>
+                    <button class="button numero" id="item10" onclick="insere(6)">6</button>
+                    <button class="button operacao" id="item11" onclick="insere('+')">+</button>
+                    <button class="button numero" id="item12" onclick="insere(7)">7</button>
+                    <button class="button numero" id="item13" onclick="insere(8)">8</button>
+                    <button class="button numero" id="item14" onclick="insere(9)">9</button>
+                    <button class="button operacao" id="item15" onclick="insere('-')">-</button>
+                    <button class="button button-config numero" id="item16" onclick="insere('.')">.</button>
+                    <button class="button numero" id="item17" onclick="insere(0)">0</button>
+                    <button class="button operacao" id="item18" onclick="calcula()">=</button>
+                </div>
             </div>
         </div>
-    </div>
-    <footer>
-        <span>
-            Desenvolvido por Nancy Yuzawa
-        </span>
-    </footer>
-</body>
+    </body>
 </html>

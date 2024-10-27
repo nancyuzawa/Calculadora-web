@@ -1,15 +1,14 @@
 *{
-    @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 1.3rem;
     background-color: whitesmoke;
-    font-family: "Afacad Flux", sans-serif;
 }
 .grid-container{
     border-radius: 9px;
     width: 13rem;
+    height: 12.5rem;
     margin: 1rem 0;
 }
 .container1{
@@ -19,7 +18,6 @@
     gap: .35rem; 
     grid-template-columns: 3rem 3rem 3rem 3rem; 
     background-color: #001F3F;
-    
 }
 
 .button-config{
@@ -27,33 +25,16 @@
 }
 
 .button{
-    height: 60px;
+    /* margin: .20rem; */
+    height: 50px;
     cursor: pointer;
     border-radius: 5px;
 }
 
-body,html{
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
 body{
     margin-top: 3.5rem;
-    
+    display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    /*Para animação de entrada*/
-    opacity: 0;
-    animation: fadeIn 2s forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
 }
 
 .numero{
@@ -99,7 +80,6 @@ input{
     text-align: right;
     width: 13rem;
     color: #001F3F;
-
 }
 
 /* Remove as setas no Chrome, Safari e Edge */
@@ -112,21 +92,4 @@ input[type=number]::-webkit-inner-spin-button {
 /* Remove as setas no Firefox */
 input[type=number] {
     -moz-appearance: textfield;
-}
-
-span{
-    font-size: .7rem;
-    margin: .5rem;
-    cursor: default;
-    width: 250px;
-    height: 30px;
-    transition: .5s;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-span:hover{
-    color: #fdfdfd;
-    background-color: #001F3F;
-    border-radius: 2px;
 }
