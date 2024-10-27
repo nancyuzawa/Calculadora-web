@@ -7,7 +7,7 @@
 </p>
 <p align="center">
   <h4 align="center"> 
-    :computer: Mini-projeto | Calculadora Web 🚀 Em Andamento 🚧 :computer:
+    :computer: Mini-projeto | Calculadora Web 🚀 Concluído ✔️ :computer:
   </h4>
 </p>
 
