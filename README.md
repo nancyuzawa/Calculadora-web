@@ -33,7 +33,7 @@
 	Demonstração da aplicação
 </h2>
 
-![image](https://github.com/user-attachments/assets/b3d6792b-6ee2-4bbe-83c1-8d03e345bce1)
+![image](https://github.com/user-attachments/assets/5368808d-6286-4247-9d80-9dbd92deef5d)
 
 <br>
 <p align="center">
