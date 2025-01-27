@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-	Projeto de front-end da faculdade, focado em criar uma página web para uma calculadora interativa utilizando HTML, CSS e JavaScript.
+	Projeto de front-end da faculdade, focado em criar uma página web para uma calculadora interativa.
 </p>
 <p align="center">
   <h4 align="center"> 
@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">  
-	<a href="#sobre">Sobre</a> • <a href="#demo">Demonstração da aplicação</a> 
+	<a href="#sobre">Sobre</a> • <a href="#tecnologia">Tecnologias</a> • <a href="#demo">Demonstração da aplicação</a> 
 </p>
 
 <h2 id="sobre">
@@ -28,6 +28,16 @@
 <p>
 	Projeto desenvolvido durante o 3º semestre da faculdade com desenvolvimento web, voltado para fins de aprendizado com o uso de tecnologias, incluindo HTML, CSS e JavaScript.
 </p>
+
+<h2 id="tecnologia">
+	Tecnologias
+</h2>
+<u>
+	<li>Html</li>
+	<li>Css</li>
+	<li>JavaScript</li>
+	<li>React</li>
+</u>
 
 <h2 id="demo">
 	Demonstração da aplicação
